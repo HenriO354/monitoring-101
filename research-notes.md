@@ -1,17 +1,3 @@
-![This is an image](/assets/images/LogoRedhat.jpg)
-
-# **MONITORING-101**
-
-# Main area of concern
-
-- itemguguu
-
-- item
-
-- item
-
--
-
 # What are the most memory intensive
 
 - item
@@ -117,4 +103,5 @@ tcpdump – Network Packet Analyzer
 
 - **Mpstat** is one of the Linux network monitoring tools that collects and shows the information on **CPU** utilization and performance statistics. Without using any option, it will display the Global Average Activities. With option ‘-p’ and ‘ALL’ displays statistics one by one that starts from 0. To get all the information in a single command, put ‘-u-I ALL -p ALL’. in a word, this command system reports overall processor related data.
 
-## [sub-section](research-notes.md#sub-section)
+## [sub-section](system-report.md#sub-section)
+
