@@ -3,7 +3,8 @@
 # **MONITORING-101**
 
 # Main area of concern
-
+## [research-notes](research-notes.md#sub-section)
+## [system-report](system-report.md#sub-section)
 	
 ## What are the basic types of IT monitoring?
 
