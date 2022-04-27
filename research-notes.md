@@ -283,17 +283,18 @@ See “How do I find out Linux Resource utilization to detect system bottlenecks
 Linux Find Out What Process Are Using Swap Space
 
 Use the smem command:
-smem
+
+    #smem
 
 Another option is to combine pgrep command with the grep command to find out SWAP usage:
 
-pgrep memcached
-grep --color VmSwap /proc/48440/status
+    pgrep memcached
+    grep --color VmSwap /proc/48440/status
 
 Linux Find Out What Process Are Using Swap Space
 
-Linux Find Out What Process Are Using Swap Space
-3. w – Find out who is logged on and what they are doing
+Linux Find Out What Process Are Using Swap Space<br >
+w – Find out who is logged on and what they are doing
 w command displays information about the users currently on the machine, and their processes.
 
 # w username
@@ -360,7 +361,7 @@ iptraf-ng can be installed directly from the repositories on the following syste
 
 To install iptraf-ng on a Debian/Ubuntu/Mint system, issue the command: sudo apt install iptraf-ng
 
-To install iptraf-ng on a openSUSE system, issue the command: zypper install iptraf-ng
+To install iptraf-ng on a openSUSE system, issue the command: zypper install iptraf-ng<br>
 
 To install htop on a RHEL 8 or CentOS 8 system, issue the command: dnf install iptraf-ng<br>
 Example install in CentOS 8
@@ -372,4 +373,6 @@ Command issued to install: dnf install iptraf-ng
 To start iptraf-ng, you must issue the following command: sudo iptraf-ng"
 
 
-![This is an image](/assets/images/iptraf-ng_01.png)
+![This is an image](/assets/images/linux_iptraf-ng_main_menu.png)
+
+
