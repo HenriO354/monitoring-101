@@ -3,9 +3,11 @@
 
 # What are the **most memory intensive** running processing ?
 
-##  Process:    ##
+##  Process    ##
+
 A process may refer to :
-- A **set of instructions** 
+
+- A **set of instructions**
 being processed by the computer processor.
 
 For example, in Windows you can see each of the processes running by opening the Processes tab in Task Manager. Windows Processes are Windows Services and background programs you normally don't see running on the computer. A process may be a printer program that runs in the background and monitors the ink levels and other printer settings while the computer is running.
@@ -22,9 +24,7 @@ Sample Output
 
 ![This is an image](/assets/images/Screenshot-%20FindTopRunningProcessesbyHighestMemory_andCPUUsageinLinux.png)
 
-
-
-## Find Top Running Processes by Highest Memory and CPU Usage in Linux##
+## Find Top Running Processes by Highest Memory and CPU Usage in Linux ##
 
 I remember once reading that efficient system administrators are lazy people. The reason is not that they’re not doing their job or wasting their time – it is mostly because they have automated a good deal of their routine tasks. Thus, they don’t have to babysit their servers and can use their time to learn new technologies and always stay at the top of their game.
 
@@ -44,14 +44,15 @@ To add other fields to the output, or change the sort criteria, refer to the OUT
 
 Don’t Miss: Find [Top 15](https://www.tecmint.com/find-processes-by-memory-usage-top-batch-mode/) Processes by Memory Usage with ‘top’ in Batch Mode
 
-# <b>Summary: #
+# <b>Summary #
 
 Monitoring process is one of the numerous tasks of a Linux server system administrator, in this tip, we looked at how you list processes on your system and sort them according to RAM and CPU use in descendant form using the ps utility.
 
 # What are log files ?
+
 Linux Logging Basics
 
-Operating system logs provide a wealth of diagnostic information about your computer, and Linux is no exception. 
+Operating system logs provide a wealth of diagnostic information about your computer, and Linux is no exception.
 
 Everything from kernel events to user actions are logged by Linux, allowing you to see almost any action performed on your servers. In this section, we’ll explain what Linux logs are, where you can find them, and how to interpret them.
 
@@ -120,8 +121,7 @@ Many Linux distributions ship with systemd, which is a process and service manag
 Additional Resources
 
 Check this out :)
-[How to View and Configure Linux Logs on Ubuntu and CentOS ](https://www.digitalocean.com/community/tutorials/how-to-view-and-configure-linux-logs-on-ubuntu-and-centos) 
-
+[How to View and Configure Linux Logs on Ubuntu and CentOS](https://www.digitalocean.com/community/tutorials/how-to-view-and-configure-linux-logs-on-ubuntu-and-centos)
 
 # List of Linux Monitoring Tools For SysAdmin
 
@@ -208,7 +208,6 @@ tcpdump – Network Packet Analyzer
 
 - **Mpstat** is one of the Linux network monitoring tools that collects and shows the information on **CPU** utilization and performance statistics. Without using any option, it will display the Global Average Activities. With option ‘-p’ and ‘ALL’ displays statistics one by one that starts from 0. To get all the information in a single command, put ‘-u-I ALL -p ALL’. in a word, this command system reports overall processor related data.
 
-
 # How can you check who were the last connected users ?
 
 If you are working in a medium to big-sized company, it is quite likely that you are working with many other system administrators.
@@ -221,7 +220,6 @@ Luckily for you, there are many ways to find who last logged in on your server.
 
 In this tutorial, you will learn about the different useful commands that you can use in order to check the last logins on your computer.
 [Here is how to](https://devconnected.com/how-to-find-last-login-on-linux/)
-
 
 # What are the different metrics of health and performance of a system?
 
@@ -244,20 +242,21 @@ Fig.01: Linux top command
 Commonly Used Hot Keys With top Linux monitoring tools
 
 Here is a list of useful hot keys:
-Hot Key 	Usage
-t 	Displays summary information off and on.
-m 	Displays memory information off and on.
-A 	Sorts the display by top consumers of various system resources. Useful for quick identification of performance-hungry tasks on a system.
-f 	Enters an interactive configuration screen for top. Helpful for setting up top for a specific task.
-o 	Enables you to interactively select the ordering within top.
-r 	Issues renice command.
-k 	Issues kill command.
-z 	Turn on or off color/mono
+Hot Key  Usage
+t  Displays summary information off and on.
+m  Displays memory information off and on.
+A  Sorts the display by top consumers of various system resources. Useful for quick identification of performance-hungry tasks on a system.
+f  Enters an interactive configuration screen for top. Helpful for setting up top for a specific task.
+o  Enables you to interactively select the ordering within top.
+r  Issues renice command.
+k  Issues kill command.
+z  Turn on or off color/mono
 
 How do I Find Out Linux CPU Utilization?
 2. vmstat – Virtual memory statistics
 
 The vmstat command reports information about processes, memory, paging, block IO, traps, and cpu activity.
+
 # vmstat 3
 
 Sample Outputs:
@@ -275,6 +274,7 @@ Sample Outputs:
 Display Memory Utilization Slabinfo
 
 # vmstat -m
+
 Get Information About Active / Inactive Memory Pages
 
 # vmstat -a
@@ -295,7 +295,9 @@ Linux Find Out What Process Are Using Swap Space
 Linux Find Out What Process Are Using Swap Space
 3. w – Find out who is logged on and what they are doing
 w command displays information about the users currently on the machine, and their processes.
+
 # w username
+
 # w vivek
 
 Sample Outputs:
@@ -307,6 +309,7 @@ Sample Outputs:
 
 4. uptime – Tell how long the Linux system has been running
 uptime command can be used to see how long the server has been running. The current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.
+
 # uptime
 
 Output:
@@ -314,7 +317,6 @@ Output:
         18:02:41 up 41 days, 23:42,  1 user,  load average: 0.00, 0.00, 0.00
 
 1 can be considered as optimal load value. The load can change from system to system. For a single CPU system 1 – 3 and SMP systems 6-10 load value might be acceptable.
-
 
 # How can you check the uptime of a machine?
 
@@ -343,7 +345,7 @@ iptraf command is interactive colorful IP LAN monitor. It is an ncurses-based IP
 Iptraf-ng network monitoring tool
 Network monitoring with iptraf-ng
 
-iptraf-ng is a menu driven utility that allows you to monitor your TCP network. Information such as ICMP, OSPF, TCP and UDP counts can be displayed easily. 
+iptraf-ng is a menu driven utility that allows you to monitor your TCP network. Information such as ICMP, OSPF, TCP and UDP counts can be displayed easily.
 
 Example install in CentOS 8
 
@@ -360,7 +362,7 @@ To install iptraf-ng on a Debian/Ubuntu/Mint system, issue the command: sudo apt
 
 To install iptraf-ng on a openSUSE system, issue the command: zypper install iptraf-ng
 
-To install htop on a RHEL 8 or CentOS 8 system, issue the command: dnf install iptraf-ng
+To install htop on a RHEL 8 or CentOS 8 system, issue the command: dnf install iptraf-ng<br>
 Example install in CentOS 8
 
 Command issued to install: dnf install iptraf-ng
@@ -369,4 +371,5 @@ Command issued to install: dnf install iptraf-ng
 
 To start iptraf-ng, you must issue the following command: sudo iptraf-ng"
 
-![iptraf-ng](monitoring-101/assets/images/iptraf-ng_01.png)
+
+![This is an image](/assets/images/iptraf-ng_01.png)
