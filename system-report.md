@@ -2,13 +2,15 @@
 [research-notes.md](research-notes.md#sub-section)
 
 
-- Finding out system bottlenecks
-- Disk (storage)
-- bottlenecks
-- CPU and memory bottlenecks
-- Network bottleneck.
+- # Finding out system bottlenecks
+- # Disk (storage)
+- # Bottlenecks
+- # CPU and memory bottlenecks
+- # Network bottleneck
 
 ![This is an image](/assets/images/ps.png)
+
+# 1) Detecting system bottlenecks
 
 # Top Memory Usage
 
@@ -31,9 +33,11 @@ Note that head utility, by default displays the first ten lines of a file, that 
 
 # vmstat -a – Virtual Memory Statistics#
 
+![This is an image](/assets/images/vmstat-a.png)
+
 vmstat is a Linux command tool which collects and analyze data about your system’s memory, swap, kernel threads, disks, system processes, I/O blocks, CPU activity and much more in real time. With the help of this Linux performance tool, you can find out the cause of the problem and issue related to system memory.<br>
 
-![This is an image](/assets/images/vmstat-a.png)
+
 
 # iotop – Monitor Linux Disk I/O
 
