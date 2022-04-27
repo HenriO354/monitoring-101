@@ -29,9 +29,11 @@ Note that head utility, by default displays the first ten lines of a file, that 
 ![This is an image](/assets/images/vmstat-m.png)
 
 
-# vmstat -a #
+# vmstat -a – Virtual Memory Statistics#
 
+vmstat is a Linux command tool which collects and analyze data about your system’s memory, swap, kernel threads, disks, system processes, I/O blocks, CPU activity and much more in real time. With the help of this Linux performance tool, you can find out the cause of the problem and issue related to system memory.<br>
 
+![This is an image](/assets/images/vmstat-a.png)
 
 # iotop – Monitor Linux Disk I/O
 
