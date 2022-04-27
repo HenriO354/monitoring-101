@@ -369,4 +369,4 @@ Command issued to install: dnf install iptraf-ng
 
 To start iptraf-ng, you must issue the following command: sudo iptraf-ng"
 
-![iptraf-ng](/assets/images/linux_iptraf-ng_main_menu.png)
+![iptraf-ng](monitoring-101/assets/images/iptraf-ng_01.png)
