@@ -21,3 +21,8 @@ Note that head utility, by default displays the first ten lines of a file, that 
 ![This is an image](/assets/images/iotop.png)
 
 Like <b>“Top”</b> command and <b>“Htop”</b> program, <b>"iotop"</b> is a python program to show you I/O usages data through “Top” like interface. This tool lets you monitor <u>real-time disk I/O and process. Moreover, you can also check the high used disk read and write time for the threads or process</u>.
+
+# iptraf-ng
+
+![This is an image](/assets/images/iptraf-ng.png)
+
