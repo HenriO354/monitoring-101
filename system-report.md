@@ -35,7 +35,7 @@ Note that head utility, by default displays the first ten lines of a file, that 
 ![This is an image](/assets/images/vmstat-m.png)
 
 
-# vmstat -a – Virtual Memory Statistics#
+# vmstat -a – Virtual Memory Statistics
 
 ![This is an image](/assets/images/vmstat-a.png)
 
