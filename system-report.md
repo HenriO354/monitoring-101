@@ -11,8 +11,12 @@
 ![This is an image](/assets/images/ps.png)
 
 # 1) Detecting system bottlenecks
-
+Linux finds out what processes are using Swap space<br>
+    
+    #smem    
+![This is an image](/assets/images/smem.png)
 # Top Memory Usage
+Linux finds out what processes are using Swap space<br>
 
 ![This is an image](/assets/images/top-HP-henri.png)
 <br>From the command above, the option:
