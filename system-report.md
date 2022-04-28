@@ -5,11 +5,10 @@
 
 - # 2) Disk (storage)
 
-- # 3) Bottlenecks
+- # 3)  CPU and memory Bottlenecks
 
-- # 4) CPU and memory bottlenecks
+- # 4)  Network bottleneck
 
-- # 5) Network bottleneck
 
 ![This is an image](/assets/images/ps.png)
 
@@ -58,13 +57,13 @@ Like <b>“Top”</b> command and <b>“Htop”</b> program, <b>"iotop"</b> is a
 
 ![This is an image](/assets/images/df.png)
 
-# 4) CPU and memory bottlenecks
+# 3) CPU and memory bottlenecks
     glances
 ![This is an image](/assets/images/glances.png)
 
 
 
-# 5) Network bottleneck
+# 4) Network bottleneck
 # iptraf-ng
 
 ![This is an image](/assets/images/iptraf-ng.png)
