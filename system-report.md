@@ -54,9 +54,9 @@ Like <b>“Top”</b> command and <b>“Htop”</b> program, <b>"iotop"</b> is a
 
 
 # 2) Disk (storage)
-    du
     df
 
+![This is an image](/assets/images/df.png)
 
 # 4) CPU and memory bottlenecks
     glances
